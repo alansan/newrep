@@ -1,6 +1,11 @@
 branch-defaults:
   master:
-    environment: null
+    environment: woo-env
     group_suffix: null
 global:
+  application_name: woo
+  default_ec2_keyname: alansan
+  default_platform: PHP 5.6
+  default_region: eu-central-1
   profile: eb-cli
+  sc: git
