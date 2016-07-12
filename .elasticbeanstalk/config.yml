@@ -1,9 +1,9 @@
 branch-defaults:
   master:
-    environment: woo-env
+    environment: testserver-dev
     group_suffix: null
 global:
-  application_name: woo
+  application_name: testserver
   default_ec2_keyname: alansan
   default_platform: PHP 5.6
   default_region: eu-central-1
